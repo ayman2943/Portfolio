@@ -2,23 +2,23 @@
   "products": {
     "sports": [
       { "id": "1", "name": "kobe shoes", "price": 50, "image": "image/products/sports 1.jpg" },
-      { "id": "2", "name": "lobe shoes", "price": 50, "image":"http://127.0.0.1:5500/E-com/image/products/sports 2.jpg" },
-      { "id": "3", "name": "mobe shoes", "price": 50, "image": "http://127.0.0.1:5500/E-com/image/products/sports 3.jpg"  },
-      { "id": "4", "name": "aobe shoes", "price": 50, "image": "http://127.0.0.1:5500/E-com/image/products/sports 1.jpg"  }
+      { "id": "2", "name": "lobe shoes", "price": 50, "image":"image/products/sports 2.jpg" },
+      { "id": "3", "name": "mobe shoes", "price": 50, "image": "image/products/sports 3.jpg"  },
+      { "id": "4", "name": "aobe shoes", "price": 50, "image": "image/products/sports 1.jpg"  }
     ],
     "boots": [
-      { "id": "5", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/boots 1.jpg"  },
-      { "id": "6", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/boots 2.jpg"  },
-      { "id": "7", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/boots 3.jpg"  },
-      { "id": "8", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/boots 4.jpg"  }
+      { "id": "5", "name": "kobe shoes", "price": 50,  "image": "image/products/boots 1.jpg"  },
+      { "id": "6", "name": "kobe shoes", "price": 50,  "image": "image/products/boots 2.jpg"  },
+      { "id": "7", "name": "kobe shoes", "price": 50,  "image": "image/products/boots 3.jpg"  },
+      { "id": "8", "name": "kobe shoes", "price": 50,  "image": "image/products/boots 4.jpg"  }
     ],
     "sneakers": [
-      { "id": "9", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/sneakers 1.jpg"  },
-      { "id": "10", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/sneakers 2.jpg"  },
-      { "id": "11", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/sneakers 3.jpg"  },
-      { "id": "12", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/sneakers 4.jpg"  },
-      { "id": "13", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/sneakers 5 .jpg"  },
-      { "id": "14", "name": "kobe shoes", "price": 50,  "image": "http://127.0.0.1:5500/E-com/image/products/sneakers 6.jpg"  }
+      { "id": "9", "name": "kobe shoes", "price": 50,  "image": "image/products/sneakers 1.jpg"  },
+      { "id": "10", "name": "kobe shoes", "price": 50,  "image": "image/products/sneakers 2.jpg"  },
+      { "id": "11", "name": "kobe shoes", "price": 50,  "image": "image/products/sneakers 3.jpg"  },
+      { "id": "12", "name": "kobe shoes", "price": 50,  "image": "image/products/sneakers 4.jpg"  },
+      { "id": "13", "name": "kobe shoes", "price": 50,  "image": "image/products/sneakers 5 .jpg"  },
+      { "id": "14", "name": "kobe shoes", "price": 50,  "image": "image/products/sneakers 6.jpg"  }
 
     ]
 }
