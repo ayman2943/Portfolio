@@ -1,7 +1,7 @@
 {
   "products": {
     "sports": [
-      { "id": "1", "name": "kobe shoes", "price": 50, "image": "http://127.0.0.1:5500/E-com/image/products/sports 1.jpg" },
+      { "id": "1", "name": "kobe shoes", "price": 50, "image": "image/products/sports 1.jpg" },
       { "id": "2", "name": "lobe shoes", "price": 50, "image":"http://127.0.0.1:5500/E-com/image/products/sports 2.jpg" },
       { "id": "3", "name": "mobe shoes", "price": 50, "image": "http://127.0.0.1:5500/E-com/image/products/sports 3.jpg"  },
       { "id": "4", "name": "aobe shoes", "price": 50, "image": "http://127.0.0.1:5500/E-com/image/products/sports 1.jpg"  }
