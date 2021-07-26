@@ -32,7 +32,7 @@ works.addEventListener('click',function(){
             bringWork()
          }, 250);   
          workBox.addEventListener('click',function(){
-            window.location.href = "/E-com/index.html"
+            window.location.href = "https://ayman2943.github.io/E-com/index.html"
          }) 
          
 })
