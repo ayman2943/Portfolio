@@ -3,7 +3,7 @@ body{
     width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
-    /* transform:translateY(0); */
+    transform:translateY(0);
     position: relative;
     top: 0;
     left: 0;
@@ -708,10 +708,10 @@ footer > div ul{
 }
 
 #single-product {
-    height:150vh;
+    height:100vh;
     width:100vw;
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: center;
     flex-direction: column;
     padding:5% 10%;
@@ -724,7 +724,7 @@ footer > div ul{
     height:50%;
     width: 50%;
     background-repeat: no-repeat;
-    margin: 30px auto 20px;
+    /* margin: 30px auto 20px; */
 }
 #single-product small{
     align-self: flex-start;
@@ -742,7 +742,7 @@ footer > div ul{
 .changeable{
     width:100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
 }
