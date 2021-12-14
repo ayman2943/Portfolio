@@ -182,6 +182,7 @@ body{
      margin-bottom: 50px;
  }
 .workBox{
+    margin: 20px;
     width: 150px;
     height: 150px;
     background-color: white;
@@ -213,8 +214,7 @@ body{
     background-color:rgb(247, 228, 228);
 }
 #basketball{
-    background-image: url("image/basketball\ ss.jpg");
-    border: 2px solid rgb(80, 3, 3);
+    border: 5px solid rgb(80, 3, 3);
 }
 
 /* skillPage */
