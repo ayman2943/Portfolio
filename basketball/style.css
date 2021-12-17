@@ -1,0 +1,486 @@
+*{box-sizing: border-box;}
+
+
+body{
+    margin: 0%;
+    padding: 0;
+    border-radius: 0%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: darkslategrey;
+    padding: 0 10vw 0 10vw;
+    margin: 0;
+    color: black;
+}
+#brand-name{
+    font-size: 25px;
+    color: rgb(22, 22, 29);
+    cursor:pointer;
+}
+#brand-name span{
+    color: chocolate;
+}
+nav{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+header ul{
+    width:50%; 
+    list-style-type: none;
+    display: flex;
+}
+header li{
+    padding:5px 10px ;
+    font-size: 18px;
+    font-weight: bold;
+}
+header li:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+
+/* homepage */
+
+
+#homePage{
+    margin-top:-20px;
+    background-image: url("image/basketball\ home 2.jpeg");
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#NBA-pic{
+  background-image: url(image/nba-logo.png);
+  width:250px;
+  height:360px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius:50px ;
+}
+#home-text {
+   font-weight: bold;
+   color: coral;
+}
+#home-text h1:hover{
+    color: cornsilk;
+    cursor: default;
+}
+
+#statsMenu{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-left: -10px;
+}
+
+.StatsBox{
+   height:100%;
+   width:40%;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+   position: relative;
+   
+}
+
+.StatsBox::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity: 0.1;
+}
+ 
+.StatsBox .statsInfo{
+    width:50%;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.StatsBox h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.statsLogo{
+    background-size: cover;
+    width:100px;
+    height:100px;
+
+}
+#playerStats .statsLogo{
+    background-image: url("image/single player.png");
+}
+#teamStats .statsLogo{
+    background-image: url("image/basketball.png")
+}
+#fixtureBox .statsLogo{
+    background-image: url("image/basketball\ fire.png");
+    width:200px;
+    margin-left: -40px;
+    /* margin-bottom: 20px; */
+}
+#playerStats{
+    background-color: rgb(63, 16, 16);
+}
+#teamStats{
+    background-color: rgb(24, 22, 22);
+    width:30%;
+    box-shadow: 0px 0px 2px 2px black;
+    z-index: 1;
+
+}
+#fixtureBox{
+    background-color: rgb(63, 16, 16);
+}
+#playerStats:hover{
+    background-color: rgb(27, 6, 6);
+}
+#teamStats:hover{
+    background-color: rgb(7, 6, 6);
+
+}
+#fixtureBox:hover{
+    background-color: rgb(29, 8, 8);
+}
+#recentMatches{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    
+}
+#kobeBackground{ 
+    position: absolute;
+    background-image: url("image/kobe wallpaper.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    z-index:-2;
+}
+#kobeBackground::after{
+    content:'';
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    z-index:-1;
+    opacity:.5;
+}
+#kobeImage{
+    background-image: url("image/kobeimage.png");
+   height:70%;
+   width:50%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+#matchStats{
+    display: flex;
+    width:50%;
+    height:100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    color: darksalmon;
+}
+
+#matchStats button{
+   position:absolute;
+}
+#matchStats #leftBtn{
+    left:20%;
+}
+#matchStats #rightBtn{
+    right: 20%;
+}
+
+#nextMatches{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+    color: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#lebronImage{
+    background-image: url("image/lebron.jpg");
+    height:100%;
+    width:100%;
+    position:absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    z-index: -1;
+}
+#lebronImage::before{
+    content: '';
+    position: absolute;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity:.8;
+}
+#nextMatches{
+    flex-direction: column;
+    width:100%;
+}
+#nextMatches .leftBtn{
+    position:absolute;
+    left:15%;
+}
+#nextMatches .rightBtn{
+    position:absolute;
+    right:15%;
+}
+#nextMatches #nextTeams,#nextMatches{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  
+}
+#nextMatches #nextTeams{
+    width:60%;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    flex-basis: 250px;
+
+}
+#nextMatches .nextTeam{
+    width: 250px;
+    height:250px;
+    color: burlywood;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+footer{
+    min-height:300px;
+    padding-top: 100px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(241, 54, 54);
+}
+
+footer i{ 
+    font-size: 25px;
+}
+
+footer .row >div{
+   margin-bottom: 50px;
+}
+footer hr{
+    color: black;
+    background-color: black;
+    width:50%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#playerStatsHome{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite ;}
+#playersBox{
+    width:100%;
+    min-height:80vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 50px;
+    flex-wrap: wrap;
+    
+}
+.player{
+    height:150px;
+    width: 150px;
+    background-color: wheat;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px  black;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    overflow:hidden;
+    margin:50px;
+    /* opacity: 0;
+    transition:all .5s ease-in-out; */
+    /* display: none; */
+    white-space: nowrap;
+}
+.player.active{
+    opacity:1;
+    display: "";
+}
+.playerImage{
+    background-image: url("https://nba-players.herokuapp.com/players/curry/stephen");
+    background-size: cover;
+    height:100%;
+    width:100%;
+    background-position: center center;
+    border-radius: 20px;
+    position:absolute; 
+}
+.playerInfo{
+    position:absolute;
+    width:100%;
+    background-color: white;
+    opacity: .8;
+    bottom:-20px;
+    left:0;
+    color:black;
+    font-weight: bolder;
+    transition: all .5s ease-in-out;
+}
+.player:hover .playerInfo{
+    bottom:0;
+}
+
+
+#singlePLayerHome{
+   height:auto;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+}
+#singlePLayerScreen{
+    height:60vh;
+    width:100vw;
+    display:flex;
+    background-color: rgb(70, 8, 21);
+    border:1px solid black;
+    box-shadow: 0px 0px 4px  black;
+}
+#singlePLayerScreen .playerIntro{
+    height:100%;
+    width:50vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color:white;
+    white-space: nowrap;
+    
+}
+#singlePLayerScreen .playerPic{
+    border: 1px solid black;
+    height:250px;
+    width:250px;
+    background-image: url("https://nba-players.herokuapp.com/players/curry/stephen");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: flex-end;
+    background-position: center center;
+    position: relative;
+    box-shadow: 0px 0px 4px  black;
+    margin-bottom: 20px;
+}
+#singlePLayerScreen .playerPic::before{
+    content: '';
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:rgb(88, 7, 7);
+    opacity:0.2;
+    
+}
+#singlePLayerScreen .NT{
+     width:50px;
+    
+}
+.NT .playerTeam{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: darkseagreen;
+    margin-bottom: 20px;
+}
+.NT .playerName{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+
+}
+#singlePLayerScreen #utility{
+    display: flex;
+    width: 50%;
+    min-height:100%;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+#utility button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    width:200px;
+    margin:30px;
+    color: beige;
+    font-size: 20px;
+    cursor: pointer;
+    padding:5px;
+    /* background-color: rgb(1, 1, 36); */
+}
+
+#utility button:hover{
+    background-color: rgb(92, 2, 22);
+
+}
+#singlePlayerStats{
+    
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    background-color: rgb(92, 2, 22);
+    /* height:20vh; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+#singlePlayerStats >div{
+    margin-top: 10px;
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px black;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+#singlePlayerStats p{
+    margin-top:20px;
+}
