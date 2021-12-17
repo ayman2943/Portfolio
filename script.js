@@ -23,6 +23,8 @@ var rightHome = document.querySelector('#home-right')
 var rightHomeBig = document.querySelector('#home-right #right-cross')
 var rightHomeText = document.querySelector('#home-right p')
 var homePage = document.querySelector("#homepage")
+var basketball = document.querySelector("#basketball")
+var eCom= document.querySelector("#eCom")
 
 works.addEventListener('click',function(){
            removeHome()
@@ -31,8 +33,11 @@ works.addEventListener('click',function(){
          setTimeout(() => {
             bringWork()
          }, 250);   
-         workBox.addEventListener('click',function(){
+         eCom.addEventListener('click',function(){
             window.location.href = "https://ayman2943.github.io/Portfolio/E-com/index.html"
+         }) 
+         basketball.addEventListener('click',function(){
+            window.location.href = "https://ayman2943.github.io/Portfolio/basketball/index.html"
          }) 
          
 })
