@@ -37,7 +37,7 @@ works.addEventListener('click',function(){
             window.location.href = "https://ayman2943.github.io/Portfolio/E-com/index.html"
          }) 
          basketball.addEventListener('click',function(){
-            window.location.href = "https://ayman2943.github.io/Portfolio/basketball/index.html"
+            window.location.href = "http://ayman2943.github.io/basketball/"
          }) 
          
 })
